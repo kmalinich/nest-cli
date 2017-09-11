@@ -1,46 +1,46 @@
 {
-  "name": "nest-cli",
-  "version": "0.0.5",
-  "description": "Unofficial command-line tool to control Nest devices",
-  "main": "index.js",
-  "engines": {
-    "node": ">= 4.0.0"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "lint": "./node_modules/eslint/bin/eslint.js .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "nest-cli": "bin/nest-cli"
-  },
-  "repository": "https://github.com/jasonmit/nest-cli",
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "cli-table": "^0.3.1",
-    "colors": "^1.1.2",
-    "commander": "^2.11.0",
-    "console-ui": "^2.0.0",
-    "denodeify": "^1.2.1",
-    "exists-sync": "0.0.4",
-    "express": "^4.15.4",
-    "express-session": "^1.15.5",
-    "iconv": "^2.3.0",
-    "lodash": "^4.17.4",
-    "mkdirp": "^0.5.1",
-    "nconf": "^0.8.4",
-    "node-fetch": "^1.7.3",
-    "open": "0.0.5",
-    "osenv": "^0.1.4",
-    "passport": "^0.4.0",
-    "passport-nest": "^1.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.6.1"
-  },
-  "keywords": [
-    "nest",
-    "thermostat"
-  ]
+	"author": "",
+	"bin": {
+		"nest-cli": "bin/nest-cli"
+	},
+	"dependencies": {
+		"cli-table": "^0.3.1",
+		"colors": "^1.1.2",
+		"commander": "^2.11.0",
+		"console-ui": "^2.0.0",
+		"denodeify": "^1.2.1",
+		"exists-sync": "0.0.4",
+		"express": "^4.15.4",
+		"express-session": "^1.15.5",
+		"iconv": "^2.3.0",
+		"lodash": "^4.17.4",
+		"mkdirp": "^0.5.1",
+		"nconf": "^0.8.4",
+		"node-fetch": "^1.7.3",
+		"open": "0.0.5",
+		"osenv": "^0.1.4",
+		"passport": "^0.4.0",
+		"passport-nest": "^1.0.0"
+	},
+	"description": "Unofficial command-line tool to control Nest devices",
+	"devDependencies": {
+		"eslint": "^4.6.1"
+	},
+	"engines": {
+		"node": ">= 8.0.0"
+	},
+	"keywords": [
+		"nest",
+		"thermostat"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"name": "nest-cli",
+	"repository": "https://github.com/jasonmit/nest-cli",
+	"scripts": {
+		"lint": "./node_modules/eslint/bin/eslint.js .",
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"version": "0.0.5"
 }
