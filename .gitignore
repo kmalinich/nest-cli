@@ -1,21 +1,21 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# compiled output
+# Compiled output
 /dist
 /tmp
 /packaging/tmp
 
-# dependencies
-/node_modules
-/bower_components
+# Misc
+*.iml
+*.swo
+*.swp
+.DS_Store
+._*
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
+# Packages
+/node_modules
+
+# Package manager lockfiles
+/package-lock.json
+/*.lock
 
 # NPM
-package-lock.json
+npm-debug.log
