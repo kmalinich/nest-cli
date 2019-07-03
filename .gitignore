@@ -19,3 +19,6 @@
 
 # NPM
 npm-debug.log
+
+# Credentials
+credentials.json
