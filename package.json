@@ -13,7 +13,7 @@
 		"express": "^4.17.1",
 		"express-session": "^1.16.2",
 		"iconv": "^2.3.4",
-		"lodash": "^4.17.11",
+		"lodash": "^4.17.14",
 		"mkdirp": "^0.5.1",
 		"nconf": "^0.10.0",
 		"nest-api": "0.0.8",
