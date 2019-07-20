@@ -1,16 +1,16 @@
 {
-  "table_headers": {
-    "id": "ID",
-    "name": "Name",
-    "state": "State",
-    "mode": "Mode",
-    "humidity": "Humidity",
-    "target_temperature": "Target Temperature",
-    "target_temperature_low": "Target Temperature Low",
-    "target_temperature_high": "Target Temperature High",
-    "battery_health": "Battery Health",
-    "smoke_state": "Smoke State",
-    "co_state": "CO State",
-    "online": "Online"
-  }
+	"table_headers": {
+		"battery_health": "Battery Health",
+		"co_state": "CO State",
+		"humidity": "Humidity",
+		"id": "ID",
+		"mode": "Mode",
+		"name": "Name",
+		"online": "Online",
+		"smoke_state": "Smoke State",
+		"state": "State",
+		"target_temperature": "Target Temperature",
+		"target_temperature_high": "Target Temperature High",
+		"target_temperature_low": "Target Temperature Low"
+	}
 }

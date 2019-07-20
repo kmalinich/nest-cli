@@ -8,6 +8,4 @@ const cli = new CLI(app, ui);
 
 cli.parse(process.argv);
 
-if (!cli.args().length) {
-	cli.help();
-}
+if (!cli.args().length) cli.help();

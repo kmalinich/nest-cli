@@ -1,47 +1,69 @@
 {
-	"author": "",
+	"author": "kdm <kennygprs@gmail.com>",
 	"bin": {
 		"nest-cli": "bin/nest-cli"
 	},
+	"bugs": {
+		"url": "https://github.com/kmalinich/nest-cli/issues"
+	},
 	"dependencies": {
-		"cli-table": "^0.3.1",
+		"callers-path": "^1.0.5",
+		"cli-table-redemption": "^1.0.1",
 		"colors": "^1.3.3",
 		"commander": "^2.20.0",
 		"console-ui": "^3.1.1",
 		"denodeify": "^1.2.1",
-		"exists-sync": "0.1.0",
+		"exists-sync": "^0.1.0",
 		"express": "^4.17.1",
 		"express-session": "^1.16.2",
 		"iconv": "^2.3.4",
-		"lodash": "^4.17.14",
+		"lodash": "^4.17.15",
 		"mkdirp": "^0.5.1",
 		"nconf": "^0.10.0",
-		"nest-api": "0.0.8",
 		"node-fetch": "^2.6.0",
-		"open": "6.4.0",
+		"open": "^6.4.0",
 		"osenv": "^0.1.5",
 		"passport": "^0.4.0",
 		"passport-nest": "^1.0.0"
 	},
-	"description": "Unofficial command-line tool to control Nest devices",
+	"description": "Unofficial Nest device CLI",
 	"devDependencies": {
 		"eslint": "^6.0.1"
 	},
 	"engines": {
-		"node": ">= 8.0.0"
+		"node": ">= 11.0.0"
 	},
+	"homepage": "https://github.com/kmalinich/nest-cli#readme",
 	"keywords": [
+		"alarm",
+		"api",
+		"cli",
+		"ha",
+		"home automation",
+		"hvac",
 		"nest",
-		"thermostat"
+		"google",
+		"google home",
+		"google-home",
+		"googlehome",
+		"nest-cli",
+		"smoke detector",
+		"smoke-detector",
+		"smokedetector",
+		"thermostat",
+		"tstat"
 	],
 	"license": "MIT",
 	"main": "index.js",
 	"name": "nest-cli",
-	"repository": "https://github.com/jasonmit/nest-cli",
+	"optionalDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kmalinich/nest-cli.git"
+	},
 	"scripts": {
 		"lint": "./node_modules/eslint/bin/eslint.js .",
-		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node index.js"
 	},
-	"version": "0.0.5"
+	"version": "0.0.6"
 }

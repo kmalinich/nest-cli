@@ -1,8 +1,3 @@
-# Compiled output
-/dist
-/tmp
-/packaging/tmp
-
 # Misc
 *.iml
 *.swo
@@ -10,15 +5,22 @@
 .DS_Store
 ._*
 
-# Packages
-/node_modules
-
-# Package manager lockfiles
-/package-lock.json
-/*.lock
-
 # NPM
 npm-debug.log
+/node_modules
+/package-lock.json
+
+
+# Compiled output
+/dist
+/packaging/tmp
+/tmp
+
 
 # Credentials
 credentials.json
+development.json
+production.json
+
+# Quick tests
+/test/
