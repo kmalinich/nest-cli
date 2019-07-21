@@ -10,13 +10,6 @@ npm-debug.log
 /node_modules
 /package-lock.json
 
-
-# Compiled output
-/dist
-/packaging/tmp
-/tmp
-
-
 # Credentials
 credentials.json
 development.json
@@ -24,3 +17,6 @@ production.json
 
 # Quick tests
 /test/
+
+# nest-log output
+/log/
